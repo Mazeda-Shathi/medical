@@ -7,9 +7,9 @@ const Footer = () => {
                 <h4 className="fw-bold">Contact us</h4>
                 <h6>Phone:+0903255</h6>
                 <h6>Email:delightsunclinic@gmail.com</h6>
-                <a href="*" className="m-3"><i className="fab fa-facebook"></i></a>
-                <a href="*" className="m-3"><i className="fab fa-instagram"></i></a>
-                <a href="*" className="m-3 "><i className="fab fa-whatsapp-square"></i></a>
+                <a href="*" className="m-3"><i class="fab fa-facebook"></i></a>
+                <a href="*" className="m-3"><i class="fab fa-instagram"></i></a>
+                <a href="*" className="m-3 "><i class="fab fa-whatsapp-square"></i></a>
             </div>
             <div className="mx-auto m-3 p-3">
                 <h4 className="fw-bold">Company </h4>

@@ -1,0 +1,7 @@
+.campaign img{
+    height: 350px;
+    width: 500px;
+    border-radius: 20px;
+    margin: 20px;
+    box-shadow: 1px solid black;
+}
