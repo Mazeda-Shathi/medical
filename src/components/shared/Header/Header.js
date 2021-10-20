@@ -1,31 +1,29 @@
 import Button from '@restart/ui/esm/Button';
 import React from 'react';
-import { Container, Image, Nav, Navbar } from 'react-bootstrap';
+import { Container, Image, Nav, Navbar, NavLink } from 'react-bootstrap';
+
 import img from '../../../banner.jpg';
 
 const Header = () => {
     return (
         <div>
-            <Navbar className="bg-dark sticky-top">
-                <Container >
-                    <Navbar.Brand href="/home" className=" text-light fw-bold fs-600 fs-2">Delight Sun Clinic</Navbar.Brand>
-                    <Navbar.Toggle />
-
-
-                    <Nav className="mx-auto ">
-                        <Nav.Link href="/home" className=" text-light">Home</Nav.Link>
-                        <Nav.Link href="/Services" className=" text-light">Services</Nav.Link>
-                        <Nav.Link href="/about" className=" text-light">About us</Nav.Link>
+            <Navbar bg="dark" variant="dark" sticky="top" collapseOnSelect expand="lg">
+                <Container>
+                    <Navbar.Brand href="/home#home" className="fw-bold fs-2">Delight Sun Clinic</Navbar.Brand>
+                    <Nav className="mx-auto text-light">
+                        <Nav.Link href="/home#home" className="fw-bold text-light fs-5">Home</Nav.Link>
+                        <Nav.Link href="/home#services" className="fw-bold text-light fs-5">Services</Nav.Link>
+                        <Nav.Link href="/about" className="fw-bold text-light fs-5">About Us</Nav.Link>
                     </Nav>
-
-                    <Navbar.Collapse className="justify-content-end  text-light">
-                        <Button className="m-2 fw-bold border border-0 bg-dark text-light">Log in</Button>
-                        <Navbar.Text className=" text-light">
-                            Signed in as: <a href="/login" className=" text-light">Mark Otto</a>
+                    <Navbar.Toggle />
+                    <Navbar.Collapse className="justify-content-end">
+                        <Nav.Link href="/login" className="fw-bold text-light fs-5">Log In</Nav.Link>
+                        <Navbar.Text>
+                            Signed in as: <a href="#login">Mark Otto</a>
                         </Navbar.Text>
                     </Navbar.Collapse>
                 </Container>
-            </Navbar >
+            </Navbar>
 
         </div>
 

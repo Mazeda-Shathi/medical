@@ -7,6 +7,7 @@ import Home from './components/Home/Home';
 import Services from './components/service/Services';
 import AboutUs from './components/About us/AboutUs';
 import Details from './components/details/Details';
+import Login from './components/Login/Login';
 
 function App() {
     return (
@@ -22,6 +23,9 @@ function App() {
                     </Route>
                     <Route exact path='/about'>
                         <AboutUs></AboutUs>
+                    </Route>
+                    <Route exact path='/login'>
+                        <Login></Login>
                     </Route>
                     <Route path="/service/:details">
                         <Details></Details>

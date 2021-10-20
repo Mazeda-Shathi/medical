@@ -4,8 +4,8 @@ import img from '../../banner.jpg'
 import Services from '../service/Services';
 const Home = () => {
     return (
-        <div>
-            <Image src={img} className="w-100"></Image>
+        <div id="home">
+            <Image src={img} className="w-100 pt-3"></Image>
             <div id="#service">
                 <Services></Services>
             </div>
