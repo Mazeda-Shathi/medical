@@ -19,9 +19,7 @@ const Footer = () => {
             </div>
             <div className="mx-auto m-3 p-3">
                 <h4 className="fw-bold">Location</h4>
-                <h6>Dance</h6>
-                <h6>Learn Quran</h6>
-                <h6>Spoken English</h6>
+                <h6>445,Mount Reden Road<br />Manytown USA</h6>
 
             </div>
             <div>
