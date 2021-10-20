@@ -12,6 +12,7 @@ import DoctorList from './components/DoctorList/DoctorList';
 import NotFound from './components/notfound/NotFound';
 import Online from './components/online/Online';
 import Register from './components/Register/Register';
+import PrivateRoute from './components/privateRoute/PrivateRoute';
 
 function App() {
     return (
@@ -33,15 +34,15 @@ function App() {
                         <Route exact path='/register'>
                             <Register></Register>
                         </Route>
-                        <Route exact path='/doctor'>
+                        <PrivateRoute exact path='/doctor'>
                             <DoctorList></DoctorList>
-                        </Route>
-                        <Route exact path='/online'>
+                        </PrivateRoute>
+                        <PrivateRoute exact path='/online'>
                             <Online></Online>
-                        </Route>
-                        <Route exact path="/service/:details">
+                        </PrivateRoute>
+                        <PrivateRoute exact path="/service/:details">
                             <Details></Details>
-                        </Route>
+                        </PrivateRoute>
                         <Route path="*">
                             <NotFound></NotFound>
                         </Route>

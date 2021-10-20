@@ -2,7 +2,7 @@ import React from 'react';
 
 const Brances = () => {
     return (
-        <div id="branch" className="mx-auto mt-5">
+        <div id="branch" className="mx-auto mt-5 container">
             <h2 className="text-danger">Our another brances</h2>
             <div className="d-flex mt-4">
                 <div className="mx-auto">

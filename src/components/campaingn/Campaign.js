@@ -5,7 +5,7 @@ import './Campaign.css'
 
 const Campaign = () => {
     return (
-        <div className="container mt-2 pt-5" id="campaign">
+        <div className="container mt-2 pt-5 container" id="campaign">
             <h2 className="text-danger">Blood Donation Campaign</h2>
             <div className="campaign d-flex">
                 <img src={img}></img>

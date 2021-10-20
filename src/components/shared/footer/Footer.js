@@ -18,7 +18,7 @@ const Footer = () => {
                 <h6>Refund policy</h6>
             </div>
             <div className="mx-auto m-3 p-3">
-                <h4 className="fw-bold">Popular course </h4>
+                <h4 className="fw-bold">Location</h4>
                 <h6>Dance</h6>
                 <h6>Learn Quran</h6>
                 <h6>Spoken English</h6>

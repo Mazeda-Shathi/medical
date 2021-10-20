@@ -6,7 +6,7 @@ import Campaign from '../campaingn/Campaign';
 import Services from '../service/Services';
 const Home = () => {
     return (
-        <div id="home" className="pt-5 mt-4">
+        <div id="home" className="pt-5 mt-4 container ">
             <Image src={img} className="w-100"></Image>
             <div>
                 <Services></Services>
